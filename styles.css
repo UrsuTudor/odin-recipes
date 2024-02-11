@@ -4,21 +4,29 @@ body {
 }
 
 .italy {
-    background-color: green;
-    font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(to right, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
+    width: 140px;  
 }
 
 .india {
-    background-color: orange;
+    background: linear-gradient(to bottom, orange 0%, orange 33%, white 33%, white 66%, green 66%, green 100%) ;
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    width: 180px;
 }
+
 
 .america {
     background-color: lightblue;
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    width: 90px;
+    height: 25px;
+}
+
+.America {
+    display: inline;
+    margin-bottom: -4px;
 }
 
 li {
