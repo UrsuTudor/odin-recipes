@@ -1,11 +1,39 @@
 /*styles.css*/
 body {
-    background-color: rgb(159, 230, 131);
+    background-color: grey;
 }
+
+.Odin {
+    background-color: rgb(119, 238, 135);
+    width: 190px;
+}
+.Description_background {
+    background-color: rgb(159, 230, 131);
+    padding: 5px;
+}
+
+.Ingredients_background {
+    background-color: aquamarine;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.Steps_background{
+    background-color: rosybrown;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
 
 .italy {
     background: linear-gradient(to right, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
     width: 140px;  
+}
+
+.italy_title {
+    background: linear-gradient(to right, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
+    width: 240px;
 }
 
 .india {
@@ -13,6 +41,11 @@ body {
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     width: 180px;
+}
+
+.india_title {
+    background: linear-gradient(to bottom, orange 0%, orange 33%, white 33%, white 66%, green 66%, green 100%) ;
+    width: 320px;
 }
 
 
@@ -24,9 +57,13 @@ body {
     height: 25px;
 }
 
-.America {
+.America_flag {
     display: inline;
     margin-bottom: -4px;
+}
+
+#BBQ_title {
+    display: inline;
 }
 
 li {
