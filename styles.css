@@ -1,12 +1,25 @@
 /*styles.css*/
+
+/*main styles*/
 body {
     background-color: grey;
 }
 
-.Odin {
-    background-color: rgb(119, 238, 135);
-    width: 190px;
+li {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
 }
+
+.descr {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h4 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif
+}
+
 .Description_background {
     background-color: rgb(159, 230, 131);
     padding: 5px;
@@ -24,7 +37,12 @@ body {
     margin-top: 10px;
 }
 
-
+/*title styles*/
+.Odin {
+    background-color: rgb(119, 238, 135);
+    width: 190px;
+    margin: auto;
+}
 
 .italy {
     background: linear-gradient(to right, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
@@ -34,6 +52,7 @@ body {
 .italy_title {
     background: linear-gradient(to right, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
     width: 240px;
+    margin: auto;
 }
 
 .india {
@@ -46,6 +65,7 @@ body {
 .india_title {
     background: linear-gradient(to bottom, orange 0%, orange 33%, white 33%, white 66%, green 66%, green 100%) ;
     width: 320px;
+    margin: auto;
 }
 
 
@@ -57,26 +77,69 @@ body {
     height: 25px;
 }
 
-.America_flag {
-    display: inline;
-    margin-bottom: -4px;
-}
-
 #BBQ_title {
-    display: inline;
+    background-color: lightblue;
+    width: 213px;
+    margin:auto;
 }
 
-li {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif
+/*specific ingredients*/
+#Sauce-ingredients {
+    width: fit-content;
+    display: inline-block;
+}  
+
+#Ribs-ingredients {
+    position: absolute;
+    width: fit-content;
+    display: inline-block;
+    width: 315px;
+    height: 399px;
+    margin-left: 325px;
 }
 
-h4 {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif
+/*specific steps*/
+
+#Sauce-steps  {
+    position: absolute;
+    width: 315px;
+    height: 399px;
+    display: inline-block;
 }
 
-.descr {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif
+#Ribs-steps {
+    position: absolute;
+    width: 903px;
+    height: 399px;
+    display: inline-block;
+    margin-left: 640px;
+}
+
+/*image styles*/
+
+.America_flag {
+    margin: auto;
+    position: absolute;
+    margin: 0 0 0 5px;
+}
+
+.BBQ {
+    width: 400px;
+    height: auto;
+    margin: 5px auto;
+    display: block;
+}
+
+.Curry {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+}
+
+.Pasta-Carbonara {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
 }
