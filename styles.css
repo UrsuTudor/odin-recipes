@@ -37,6 +37,11 @@ h4 {
     margin-top: 10px;
 }
 
+.container {
+    position: relative;
+    margin-top: 10px;
+}
+
 /*title styles*/
 .Odin {
     background-color: rgb(119, 238, 135);
@@ -83,8 +88,11 @@ h4 {
     margin:auto;
 }
 
+
+
 /*specific ingredients*/
 #Sauce-ingredients {
+    position: absolute;
     width: fit-content;
     display: inline-block;
 }  
@@ -93,26 +101,24 @@ h4 {
     position: absolute;
     width: fit-content;
     display: inline-block;
-    width: 315px;
-    height: 399px;
-    margin-left: 325px;
+    height: 398px;
+    margin-left: 650px;
 }
 
 /*specific steps*/
 
 #Sauce-steps  {
     position: absolute;
-    width: 315px;
-    height: 399px;
     display: inline-block;
+    height: 398px;
+    margin-left: 325px;
 }
 
 #Ribs-steps {
     position: absolute;
-    width: 903px;
-    height: 399px;
+    height: 398px;
     display: inline-block;
-    margin-left: 640px;
+    margin-left: 975px;
 }
 
 /*image styles*/
