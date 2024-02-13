@@ -37,9 +37,10 @@ h4 {
     margin-top: 10px;
 }
 
-.container {
-    position: relative;
-    margin-top: 10px;
+/*containers*/
+
+.BBQ-container {
+    display: flex
 }
 
 /*title styles*/
@@ -88,37 +89,10 @@ h4 {
     margin:auto;
 }
 
+/*flexed elements*/
 
-
-/*specific ingredients*/
-#Sauce-ingredients {
-    position: absolute;
-    width: fit-content;
-    display: inline-block;
-}  
-
-#Ribs-ingredients {
-    position: absolute;
-    width: fit-content;
-    display: inline-block;
-    height: 398px;
-    margin-left: 650px;
-}
-
-/*specific steps*/
-
-#Sauce-steps  {
-    position: absolute;
-    display: inline-block;
-    height: 398px;
-    margin-left: 325px;
-}
-
-#Ribs-steps {
-    position: absolute;
-    height: 398px;
-    display: inline-block;
-    margin-left: 975px;
+.BBQ-container div {
+    flex: 1;
 }
 
 /*image styles*/
